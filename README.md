@@ -6,7 +6,7 @@ mancer-ready OP IO schema:
 controls_in_dat DAT schema:
 | Key | Value |
 |-----|-------|
-| fader1 | value |
+| fader1 | float:value |
 
 controls_out_dat DAT schema:
 | Key | Value |
