@@ -11,6 +11,6 @@ controls_in_dat DAT schema:
 controls_out_dat DAT schema:
 | Key | Value |
 |-----|-------|
-| fader1 | value |
+| fader1 | float:value |
 | label_fader1_control | string:control_name |
 | label_fader1_value | string:value |
