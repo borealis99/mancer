@@ -1,7 +1,7 @@
 mancer-ready OP IO schema:
  - IN DAT `controls_in_dat`
  - OUT DAT `controls_in_dat`
- - OUT TOP `out_top`
+ - OUT TOP `out1`
 
 controls_in_dat DAT schema:
 | Key | Value |
