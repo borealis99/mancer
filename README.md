@@ -29,3 +29,6 @@ MIDI Spec:
 
 MIDI ALT Spec:
  - Buttons will send a momentary 127 on the encoder channels.
+
+TD Patch Spec:
+ - A 0->1 pulse on faderx_click will reset that parameter to a default value specified elsewhere in the patch.
