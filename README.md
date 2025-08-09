@@ -7,6 +7,7 @@ controls_in_dat DAT schema:
 | Key | Value |
 |-----|-------|
 | fader1 | float:value |
+| fader1_click | float:value |
 | button1 | float:value |
 
 controls_out_dat DAT schema:
@@ -21,6 +22,7 @@ MIDI Spec:
  - MCU will not increment below 0 or above 127.
  - MCU will not loop the value range when incrementing past 0 or 127.
  - Encoders will send 0-127 on MIDI Channel 1 CC 70-79.
+ - Encoder clicks will send 0 or 127 on MIDI Channel 1 CC 90-99.
  - Buttons will send 0 or 127 on MIDI Channel 1 CC 110-119.
  - MCU can receive new encoder positions (0-127) on encoder channels.
  - MCU will ignore messages sent to the button channels.
