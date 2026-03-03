@@ -6,19 +6,19 @@ mancer-ready OP IO schema:
 controls_in_dat DAT schema:
 | Key | Value |
 |-----|-------|
+| hex0 | string: (hex color) |
 | hex1 | string: (hex color) |
-| hex2 | string: (hex color) |
 | beat | float:beat 0 <= x <= 1 |
-| fader1 | float:value |
+| fader0 | float:value |
 | fader1_click | float:value |
-| button1 | float:value |
+| button0 | float:value |
 
 controls_out_dat DAT schema:
 | Key | Value |
 |-----|-------|
-| fader1 | float:value |
-| label_fader1_control | string:control_name |
-| label_fader1_value | string:value |
+| fader0 | float:value |
+| label_fader0_control | string:control_name |
+| label_fader0_value | string:value |
 
 MIDI Spec:
  - MCU will log encoder positions between 0 and 127.
