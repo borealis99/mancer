@@ -6,6 +6,9 @@ mancer-ready OP IO schema:
 controls_in_dat DAT schema:
 | Key | Value |
 |-----|-------|
+| hex1 | string: (hex color) |
+| hex2 | string: (hex color) |
+| beat | float:beat 0 <= x <= 1 |
 | fader1 | float:value |
 | fader1_click | float:value |
 | button1 | float:value |
